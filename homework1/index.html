@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>卧龙控股</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		.header{
+			height: 115px;
+			width:1000px;
+			margin: 0 auto;
+		}
+		.header .head{
+			width: 1000px;
+			height: 100px;
+		}
+		.header .logo{
+			height: 22px;
+			width:243px;
+			margin-left: 21px;
+			margin-top: 40px;
+			float: left;
+		}
+		.header .search{
+			height: 22px;
+			width: 227px;
+			float: right;
+			margin-right: 8px;
+			margin-top: 40px;
+
+		}
+		.header	.nav{
+			height: 59px;
+ 			width: 999px;
+ 			background-color: #303030;
+		}
+		.header .nav ul li{
+			line-height:59px;
+			width:124px;
+			color: #fff;
+			border-right:1px solid #4b4b4b;
+			float: left;
+			list-style:none;
+			text-align: center;
+		}
+		.header .nav ul .no-list{
+			border:none;
+			
+		}
+		.banner{
+			height: 462px;
+			width:1000px;
+			margin: 0 auto;
+
+		}
+		.container{
+
+			height: 547px;
+			width: 999px;
+			margin: 0 auto;
+		}
+
+		.container .container-top{
+			height: 247px;
+			width: 999px;
+			margin:0 auto;
+		}
+		.container .container-top .c-t-left{
+			height: 247px;
+			width: 430px;
+			float: left;
+
+			
+		}
+		.container .container-top .c-t-left h3{
+			margin-top: 25px;
+			margin-left: 22px;
+
+		}
+		.container .container-top .c-t-left ul{
+			margin-top: 20px;
+		}
+		.container .container-top .c-t-left ul li{
+			margin-top: 7px;
+			margin-left: 22px;
+		}
+		.container .container-top .c-t-center{
+			width: 239px;
+			height: 247px;
+			float: left;
+			background-color: #f1f1f1;
+		}
+		.container .container-top .c-t-center h3{
+			margin-top: 25px;
+			margin-left: 25px;
+		}
+		
+		.container .container-top .c-t-center .pone{
+			margin-top: 39px;
+			margin-left: 25px;
+
+		}
+		
+		.container .container-top .c-t-center .ptwo{
+			margin-top: 27px;
+			margin-left: 25px;
+		}
+
+		.container .container-top .c-t-right{
+			width: 261px;
+			height: 247px;
+			float: left;
+
+		}
+		.container .container-top .c-t-right h3{
+			margin-top: 25px;
+			margin-left: 30px;
+		}
+		.container .container-top .c-t-right p{
+			margin-top: 27px;
+			margin-left: 30px;
+		}
+		.container .container-top .c-t-right  img{
+			margin-left: 30px;
+
+		}
+		.container .congtainer-bottom{
+			height: 300px;
+			width: 1000px;
+		}
+		.container .congtainer-bottom .c-b-t{
+			height: 60px;
+			width: 1000px;
+			margin-top: 25px;
+			margin-left: 23px;
+		}
+		.container .congtainer-bottom .c-b-b {
+			height: 137px;
+			width: 1000px;
+
+		}
+		.container .congtainer-bottom .c-b-b ul li{
+			width: 220px;
+			list-style: none;
+			float: left;
+			margin-left:20px;
+			text-align: center;
+		}
+		.container .congtainer-bottom .c-b-bc ul li{
+			width: 220px;
+			list-style: none;
+			float: left;
+			margin-left:20px;
+		}
+		.footer{
+			height: 332px;
+			width: 1000px;
+			margin: 0 auto;
+		} 
+		.footer .footer-top{
+			height: 252px;
+			width: 1000px;
+			background-color: #e5e5e5;	
+			}
+		.footer .footer-top .footer-top-left{
+			height: 250px;
+			width: 500px;
+			float: left;
+		}
+		.footer .footer-top .f-t-b {
+			height: 48px;
+			width: 450px;
+			border-bottom: 1px solid #c1c1c1;
+			margin-left: 20px;
+			margin-top: 20px;
+
+		}
+		.footer .footer-top .f-t-b h3{
+			margin-left: 5px;
+			margin-top: 10px;
+
+		}
+		.footer .footer-top .f-t-f {
+			height: 180px;
+			width: 140px;
+			float: left;
+			margin-left: 20px;
+			margin-top: 10px;
+
+
+			}
+		.footer .footer-top .f-t-f	ul li{
+			list-style: none;
+			height: 25px;
+		}
+		.footer .footer-top .f-t-ct{
+			height: 180px;
+			width: 160px;
+			float: left;
+			margin-top: 10px;
+		}
+		.footer .footer-top .f-t-ct ul li{
+			list-style: none;
+			height: 25px;
+		}
+		.footer .footer-top .f-t-r{
+			height: 180px;
+			width: 170px;
+			float: left;
+		}
+		.footer .footer-top .f-t-r ul li{
+			margin-top: 10px;
+			list-style: none;
+			height: 15px;
+			margin-left: 50px;
+		}
+		.footer .footer-top .footer-top-center{
+			height: 250px;
+			width: 200px;
+			float: left;
+		}
+				
+		.footer .footer-top .footer-top-center .ftc-b{
+			height: 48px;
+			width: 160px;
+			border-bottom: 1px solid #c1c1c1;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.footer .footer-top .footer-top-center .ftc-b .box{
+			margin-top: 30px;
+			list-style: none;
+			height: 170px;
+			width: 160px;
+		}
+		.footer .footer-top .footer-top-center .ftc-b .box ul li{
+			margin-top: 5px;
+			list-style: none;
+			height: 20px;
+			
+		}
+		.footer .footer-top .footer-t-right{
+			height: 249px;
+			width: 280px;
+			float: left;
+		}
+		.footer .footer-top .footer-t-right .box{
+			height: 48px;
+			width: 240px;
+			border-bottom: 1px solid #c1c1c1;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.footer .footer-top .footer-t-right .pic{
+
+			height: 180px;
+			width: 270px;
+			float: left;
+		}
+		.footer-bottom{
+			height: 80px;
+			width: 1000px;
+
+		}
+		.footer-bottom .f-b-l{
+			height: 80px;
+			width: 300px;
+			float: left;
+
+		}
+		.footer-bottom .f-b-l ul li{
+			float: left;
+			font-size: 12px;
+			height: 20px;
+
+			border-right: 1px solid #898989;
+			color: #898989;
+			margin-top: 25px;
+			margin-left: 20px;
+			list-style: none;
+		}
+		.footer-bottom .f-b-l .no-list{
+			border-right: 1px solid #fff:;
+		}
+		.footer-bottom .f-b-c{
+			height: 20px;
+			width: 470px;
+			font-size: 12px;
+			color: #898989;
+			float: left;
+			margin-top: 26px;
+			margin-left: 30px;
+		}
+		.footer-bottom .f-b-r{
+			height: 20px;
+			width: 100px;
+			color: #898989;
+			margin-top: 26px;
+			float: left;
+		}
+	</style>	
+</head>
+<body>
+	<div class="header">
+		<div class="head">
+			<div class="logo">
+				<img src="images/logo.gif">
+			</div>
+			<div class="search">
+				<img src="images/search.gif">
+			</div>
+		</div>
+		<div class="nav">
+		<ul>
+			<li>集团介绍</li>
+			<li>产品中心</li>
+			<li>卧龙市场</li>
+			<li>技术研发</li>
+			<li>国际合作</li>
+			<li>投资者关系</li>
+			<li>新闻资讯</li>
+			<li  class="no-list">人力资源</li>
+		</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<img src="images/banner.gif">
+	</div>
+	<div class="container">
+		<div class="container-top">
+			<div class="c-t-left">
+				<h3>新闻资讯</h3>
+				<ul>
+				<li>陈建成董事长出席ATB集团召开年度销售大会</li>
+				<li>中国电器工业协会分玛丽点击分会在卧龙召开理事长……</li>
+				<li>陈建成董事长访问中国驻德大使馆</li>
+				<li>企业文化是企业持续经营的关键要素</li>
+				<li>陈建成监事长在ATB集团2013年销售会议上发表重要……	</li>
+				<li>喜迎七一唱响卧龙年轻力量激发企业持久活力 卧龙举……</li>
+				</ul>
+			</div>
+			<div class="c-t-center">
+				<h3>卧龙介绍</h3>
+				<p class=pone>公司成立于1984年，
+				经过近30年的发展</p>
+					<p class=ptwo>已成为电器制造，房地产和金融投资三业并举的综合性跨国……
+					</p>
+				
+			</div>
+			<div class="c-t-right">
+				<h3>人才招聘</h3>
+				<p>培养一流的人才，铸造一流的工程
+
+					实现员工与企业的共同发展</p>
+				<img src="images/flower.gif">
+			</div>
+
+		</div>
+		<div class="congtainer-bottom">
+			<div class="c-b-t">
+				<h3>卧龙市场</h3>
+			</div>
+			<div class="c-b-b">
+				<ul>
+				<li>
+					<img src="images/pic1.gif">
+				</li>
+				<li>
+					<img src="images/pic2.gif">
+				</li>
+				<li>
+					<img src="images/pic3.gif">
+				</li>
+				<li>
+					<img src="images/pic4.gif">			
+					</li>
+				</ul>
+			</div>
+			<div class="c-b-bc">
+				<ul>
+				<li>交通轨道：由于主要采用电器牵引，而且轮轨摩擦阻力小，与公共……</li>
+				<li>节能环境报：由于不断上涨的能源消耗和我们的专业知识，维护可持续……</li>
+				<li>航空与船舶：如果你是在公海行驶，你需要确保你的船只的电力系统……</li>
+				<li>石油、天然气及采矿：在市场中的安全性、可靠性，效率和最短的停机……</li>
+				</ul>
+			</div>
+		</div>
+			
+	</div>
+	<div class="footer">
+		
+		<div class="footer-top">
+			<div class="footer-top-left">
+				<div class="f-t-b">
+					<h3>产品中心</h3>
+				</div>
+				<div class="f-t-f">
+					<ul class="W">
+							<li>>汽车电机</li>
+							<li>>日用电机</li>
+							<li>>特种电机</li>
+							<li>>大功率电机</li>
+							<li>>电工设备</li>
+					</ul>
+				</div>
+				<div class="f-t-ct">
+					<ul class="H">
+						<li>>工业驱动和自动化</li>
+						<li>>高压变频和系统集成</li>
+						<li>>混泥土搅拌机</li>
+						<li>>电动车辆</li>
+					</ul>
+				</div>
+				<div class="f-t-r">
+					<ul class="Q">
+						<li>>电池电源</li>
+						<li>>输变电设备</li>
+						<li>>楼盘信息</li>
+						<li>>金融产品</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-top-center">
+				<div class="ftc-b">
+					<h3>技术研发</h3>
+					<div class="box">
+						<ul>
+							<li>>科技力量</li>
+							<li>>先进设备</li>
+							<li>>研发创新</li>
+							<li>>工艺流程</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-t-right">
+					<div class="box">
+					<h3>网络营销</h3>
+					</div>
+					<div class="pic">
+						<img src="images/map.gif">
+					</div>
+			</div>
+		</div>
+			
+		<div class="footer-bottom">
+			<div class="f-b-l">
+				<ul>
+					<li>网站地图</li>
+					<li>联系我们</li>
+					<li>关注卧龙</li>
+					<li class="no-list">系统采购入口</li>
+				</ul>
+			</div>
+			<div class="f-b-c">
+				<h5>COPYRIGHT @ 2013 卧龙控股集团 版权所有 浙ICP备06005901号 技术支持：博采互动       分享到：</h5>
+			</div>
+			<div class="f-b-r">
+				<img src="images/fenxiang.gif">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
